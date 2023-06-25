@@ -1,0 +1,30 @@
+{
+  "name": "mathlab",
+  "version": "1.0.0",
+  "description": "Projeto Web completo para fórmulas e cálculos matemáticos.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Daniiizita/mathlab.git"
+  },
+  "keywords": [
+    "math",
+    "lab",
+    "html",
+    "css",
+    "web",
+    "js"
+  ],
+  "author": "Danielle de Paula",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Daniiizita/mathlab/issues"
+  },
+  "homepage": "https://github.com/Daniiizita/mathlab#readme"
+}
