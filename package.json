@@ -26,5 +26,8 @@
   "bugs": {
     "url": "https://github.com/Daniiizita/mathlab/issues"
   },
-  "homepage": "https://github.com/Daniiizita/mathlab#readme"
+  "homepage": "https://github.com/Daniiizita/mathlab#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.3"
+  }
 }
