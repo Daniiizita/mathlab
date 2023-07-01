@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><!--Aqui é a parte responsiva do site-->
+    <link rel="icon" href="assets/icons/icone.png" type="assets/icons/icone.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <title>Página Inicial - MathLab</title>
 </head>
 <body class="bg-light">
     <header>
-        <nav>
+        <nav  class="my-4">
             <div class="container-fluid pb-3">
-              <h1 class="h2 text-center fs-2 pt-3" id="nome_site">MathLab</h1>
-              <h2 class="h3 text-center fs-3 fw-light">Seu solucionador matemático mais eficiente!</h2>
+              <h1 class="h2 text-center display-6 fw-bolder" id="nome_site">MathLab</h1>
+              <h2 class="h3 text-center fw-light">Seu solucionador matemático mais eficiente!</h2>
             </div>
             <ul class="nav justify-content-center nav-tabs">
               <div class="row p-0 nav-item">
@@ -26,7 +27,7 @@
                   <a class="nav-link" href="pages/calculadora.html">Calculadora</a>
                 </li>
                 <li class="col-sm p-0 nav-item dropdown">
-                  <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fórmulas</a>
+                  <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Fórmulas</a>
                   <div class="dropdown-menu">
                     <a class="dropdown-item" href="#">Ação</a>
                     <a class="dropdown-item" href="#">Outra ação</a>
@@ -34,7 +35,8 @@
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item" href="#">Link isolado</a>
                   </div>
-                </lgiti>
+                </li>
+                
                 <li class="col-sm p-0">
                   <a class="nav-link" href="pages/sobre.html">Sobre</a>
                 </li>
@@ -43,15 +45,33 @@
                 </li>
               </div>
             </ul>
-          </nav><br>
-          
+          </nav><br class="my-auto">
           
     </header>
     <main>
-        <div class="container" id="boas-vindas">
-            <h3 class="row mx-auto">Seja muito Bem-Vindo (a)!</h2> <!--Aqui sera inserido as boas vindas, falando sobre o site e suas funções-->
-            <p class="row"> Este site foi criado com o propósito de solucionar problemas matemáticos e calcular valores e expressões. Espero que goste!</p>    
+      <div class="jumbotron">
+        <div class="container">
+          <h1 class="display-7 small-text text-center">Bem-vindo(a) ao MathLab!</h1>
+          <p class="lead text-center">Sua solução completa para fórmulas e operações matemáticas.</p>
+          
+          <p>Bem-vindo(a) ao MathLab! Descubra o mundo fascinante da matemática e encontre soluções eficientes para os desafios numéricos. No MathLab, você terá acesso a uma ampla gama de recursos matemáticos, desde fórmulas essenciais até ferramentas de cálculo avançadas.</p>
+          <p>Explore nossa coleção abrangente de fórmulas matemáticas e descubra como aplicá-las em problemas do mundo real. Nossas calculadoras inteligentes irão simplificar cálculos complexos, permitindo que você economize tempo e esforço.</p>
+          <p>Aprenda conceitos matemáticos de maneira prática e envolvente por meio de nossos tutoriais interativos. Nossa equipe de especialistas em matemática está aqui para guiá-lo(a) em cada etapa do caminho, tornando o aprendizado divertido e acessível.</p>
+          <p>Prepare-se para desvendar os segredos da matemática e elevar suas habilidades para um novo nível. O MathLab é o seu laboratório virtual, onde a teoria se transforma em prática e a matemática ganha vida.</p>
+          <p>Explore agora e desbloqueie o poder do conhecimento matemático!</p>
+
+          <p>Aqui você encontrará:</p>
+          <ul>
+            <li>Fórmulas matemáticas essenciais;</li>
+            <li>Calculadoras poderosas para resolver problemas complexos;</li>
+            <li>Tutoriais e exemplos práticos;</li>
+            <li>E muito mais!</li>
+          </ul>
+          <p class="text-center"><a class="btn btn-primary btn-md justify-content-center" href="pages/calculadora.html" role="button">Explore agora</a></p>
+
         </div>
+      </div>
+     
     </main><hr>
 
     <footer>
@@ -60,7 +80,7 @@
           <p><a href="https://github.com/Daniiizita">Visite meu perfil do GitHub</a></p>
         </div>
       </footer>
-    <script src="js/script.js"></script>
+    <script src="assets/js/script.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
 
 </html>

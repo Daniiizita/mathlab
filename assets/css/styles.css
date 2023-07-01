@@ -1,5 +1,8 @@
 #nome_site {
     font-family: 'Open Sans', sans-serif;
-    font-weight: 600;
+  }
+
+  .small-text {
+    font-size: 28px;
   }
   
