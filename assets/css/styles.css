@@ -1,8 +1,32 @@
+@font-face {
+  font-family: 'Belanosima';
+  src: url('../fonts/Belanosima/Belanosima-Regular.ttf') format('truetype'); /* Substitua o caminho e o formato do arquivo conforme necessário */
+}
+
 #nome_site {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Belanosima', Arial, sans-serif;
+    font-size: 35px; /* Aumente ou diminua o valor para alterar o tamanho da fonte */
+  }
+
+  #nome_site_slogan {
+    font-family: 'Belanosima', sans-serif;
   }
 
   .small-text {
     font-size: 28px;
   }
   
+  .custom-header {
+    padding-top: 1rem;
+    background-image: linear-gradient(to bottom, #520000b4, #3f3f3f); /* Substitua pelas cores desejadas */
+    color: #ffffff; /* Substitua pela cor desejada */
+    padding-top: 1rem; /* Reduza o valor do padding para diminuir o espaço superior */
+    
+}
+
+.custom-header .navbar-nav .nav-link {
+    color: #0c0c0c; /* Substitua pela cor desejada */
+}
+
+
+
