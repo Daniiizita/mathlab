@@ -18,7 +18,7 @@
   
   .custom-header {
     padding-top: 1rem;
-    background-image: linear-gradient(to bottom, #520000b4, #3f3f3f); /* Substitua pelas cores desejadas */
+    background-image: linear-gradient(to bottom, #0044ff, #f1f1f1); /* Substitua pelas cores desejadas */
     color: #ffffff; /* Substitua pela cor desejada */
     padding-top: 1rem; /* Reduza o valor do padding para diminuir o espaço superior */
     
